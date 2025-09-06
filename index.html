@@ -81,9 +81,7 @@
     </header>
     <!-- main section style -->
     <main>
-      <section
-        class="flex justify-between bg-[#41FF6B1A] border-2 border-red-500"
-      >
+      <section class="flex justify-between bg-[#41FF6B1A]">
         <!-- parent div -->
         <div
           class="parent-div max-w-[1800px] max-h-[1140px] gap-x-7 gap-y-7 flex flex-wrap flex-col mx-[60px] mt-[48px] mb-[85px]"
@@ -467,9 +465,125 @@
             </div>
           </div>
           <!-- call history div -->
-          <div
-            class="call-history-div max-w-[400px] max-h-[1140px] border-2 border-green-600"
-          ></div>
+          <section
+            class="bg-[#FFFFFF] rounded-lg w-[400px] h-[1140px] shadow-md"
+          >
+            <div class="call-history-parent-div">
+              <div class="flex justify-between items-center mx-6 my-6">
+                <p class="font-bold">
+                  <i class="mr-2 fa-regular fa-clock text-gray-400"></i>Call
+                  History
+                </p>
+                <button
+                  class="w-[114px] h-[52px] text-white bg-[#00A63E] rounded-full"
+                  type="button"
+                >
+                  Clear
+                </button>
+              </div>
+              <div class="history-parent hidden mx-[16px] flex flex-col gap-2">
+                <div
+                  class="history-card-parent pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">জাতীয় জরুরি সেবা</h1>
+                    <p class="text-gray-500">999</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time1" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parent pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">অ্যাম্বুলেন্স</h1>
+                    <p class="text-gray-500">1994-999999</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time2" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parentpt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">বিদ্যুৎ বিভ্রাট</h1>
+                    <p class="text-gray-500">16216</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time3" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parent pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">পুলিশ</h1>
+                    <p class="text-gray-500">999</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time4" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parent pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">নারী ও শিশু সহায়তা</h1>
+                    <p class="text-gray-500">109</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time5" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parent pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">ব্র্যাক</h1>
+                    <p class="text-gray-500">16445</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time6" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parent pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">ফায়ার সার্ভিস</h1>
+                    <p class="text-gray-500">999</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time7" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parent pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full] h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">দুদক</h1>
+                    <p class="text-gray-500">106</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time8" class="text-sm"></p>
+                  </div>
+                </div>
+                <div
+                  class="history-card-parent mx-auto pt-[16px] pb-[16px] pr-[16px] pl-[16px] w-full h-[86px] bg-[#FAFAFA] rounded-lg flex justify-between items-center"
+                >
+                  <div class="w-[215px] h-[54px]">
+                    <h1 class="font-semibold">বাংলাদেশ রেলওয়ে</h1>
+                    <p class="text-gray-500">163</p>
+                  </div>
+                  <div class="w-[89px] h-[25px]">
+                    <p id="time" class="text-sm"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </section>
     </main>
