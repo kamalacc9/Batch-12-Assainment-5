@@ -2,13 +2,21 @@
 const heartCount = document.getElementById("heart-count");
 let count = 0;
 
-// সব হার্ট আইকন select
+// সব heart select
 const cardHearts = document.getElementsByClassName("heart-card");
 
-// Normal for loop
 for (let i = 0; i < cardHearts.length; i++) {
-  cardHearts[i].addEventListener("click", function () {
-    count += 1; // শুধু ১ করে বাড়াবে
+  cardHearts[i].classList.add("cursor-pointer");
+
+  cardHearts[i].addEventListener("click", function (e) {
+    e.preventDefault();
+    count += 1;
+    heartCount.textContent = count;
+  });
+
+  cardHearts[i].addEventListener("touchstart", function (e) {
+    e.preventDefault();
+    count += 1;
     heartCount.textContent = count;
   });
 }
